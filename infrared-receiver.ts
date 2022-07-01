@@ -5,17 +5,17 @@ const enum IrButton {
 	//% block="any"
 	Any = -1,
 	Power = 0x0,
-	Up = 128,
-	Left = 32,
-	Right = 96,
-	Down = 144,
-	Light = 64,
-	BEEP = 160,
-	Plus = 48,
-	Minus = 112, 
-	TLeft = 16,
-	TRight = 80,
-	NUM0 = 176,
+	MENU = 128,
+	SILENT = 32,
+	MODE = 96,
+	ADD = 144,
+	RETURN = 64,
+	PREV = 160,
+	PLAY = 48,
+	NEXT = 112, 
+	NUM0 = 16,
+	REDUCE = 80,
+	OK = 176,
 	NUM1 = 8,
 	NUM2 = 136,
 	NUM3 = 72,
@@ -41,7 +41,7 @@ const enum IrProtocol {
   NEC = 1,
 }
 
-//% weight=10 color=#008B00 icon="\uf1eb" block="Yahboom_IR_V2"
+//% weight=10 color=#008B00 icon="\uf1eb" block="IR_V2"
 namespace makerbit {
   let irState: IrState;
 
