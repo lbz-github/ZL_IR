@@ -1,8 +1,6 @@
- # Yahboom_IR for micro-bit
+ # IR for micro-bit
 
-Extension for Yahboom IR
-
-Note: IR receiver for Yahboom receiver
+Extension for IR
 
 ## License
 
