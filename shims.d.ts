@@ -4,7 +4,7 @@
     /**
      */
 
-    declare namespace Mbit_IR {
+    declare namespace ZLbit_IR {
     }
     
     // Auto-generated. Do not edit. Really.
